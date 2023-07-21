@@ -54,3 +54,8 @@ p{
 <p>{day_remaining} Days remaining.</p>
 <p>{seconds_remaining} Seconds Remaining.</p>
 <p>{ms_remaining} MS remaining.</p>
+
+</br>
+</br>
+</br>
+<a href="vercel.com"><img alt="Vercel" src="https://www.svgrepo.com/show/327408/logo-vercel.svg"></a>
