@@ -58,4 +58,4 @@ p{
 <br>
 <br>
 <br>
-<a href="vercel.com"><img alt="Vercel" src="https://www.svgrepo.com/show/327408/logo-vercel.svg"></a>
+<a href="https://vercel.com"><img alt="Vercel" src="https://www.svgrepo.com/show/327408/logo-vercel.svg"></a>
