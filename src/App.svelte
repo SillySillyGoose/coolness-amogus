@@ -1,61 +1,95 @@
 <script>
-	let day = 11
-	let day_remaining = 56
-	let day_length = 8.64e+7
-	let ms_remaining = 4.838e+9
-	let seconds_remaining = 4.406e+6
-	daytime2()
-	daytime()
-	DT()
-	function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
-	async function DT(){
-		while (true){
-			await sleep(1000)
-			seconds_remaining -= 1
-
-
-		}
-
-
-	}
-	async function daytime(){
-		while (true) {
-			await sleep(1)
-			ms_remaining -= 1
-		}
-	
-	}
-	async function daytime2(){
-			while (true) {
-			await sleep(day_length)
-		day_remaining -= 1
-		day += 1
-		}
-	}
-	
+	let Day = 14
+	let Days_Remaining = 53
 </script>
 
 <style>
-h1{
-	text-align: center;
-	padding: 50px
-}
-p{
-	text-align: center;
-	font-size: 30px;
-	font-variant: bolder;
-}
-	
+	.CD{
+		border: 3px solid;
+		width: 100px;
+		height: 100px;
+		display: table-cell;
+
+
+	}
+
+
+
 </style>
 
-<h1>Day: {day}</h1>
-<p>{day_remaining} Days remaining.</p>
-<p>{seconds_remaining} Seconds Remaining.</p>
-<p>{ms_remaining} MS remaining.</p>
 
-<br>
-<br>
-<br>
-<a href="https://vercel.com"><img style="size: 20px;" alt="Vercel" src="https://www.svgrepo.com/show/327408/logo-vercel.svg"></a>
+<h1>Day: {Day}</h1>
+<h1>{Days_Remaining} Days Remaining</h1>
+
+<div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+</div>
+<div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+</div>
+<div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+</div>
+<div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+</div>
+<div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+</div>
+<div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+</div>
+<div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+	<div class="CD"></div>
+</div>
+
+
+<p style="text-align: center; color: grey;">coolman105</p>
