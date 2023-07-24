@@ -17,9 +17,9 @@
 
 </style>
 
-
+<div style="text-align: center;">
 <h1>Day: {Day}</h1>
-<h1>{Days_Remaining} Days Remaining</h1>
+<h1>{Days_Remaining} Days Remaining</h1></div>
 
 <div>
 	<div class="CD"></div>
