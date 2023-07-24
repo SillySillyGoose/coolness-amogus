@@ -1,6 +1,6 @@
 <script>
-	let Day = 14
-	let Days_Remaining = 53
+	let Day = 15
+	let Days_Remaining = 52
 	import Hai from './hai.svelte'
 	function GETOFFMEBLOODYLAWN(){
 		document.querySelector("#getoffmebloodylawn").hidden = false
@@ -15,12 +15,15 @@
 </script>
 
 <style>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 	.CD{
 		border: 3px solid;
 		width: 100px;
 		height: 100px;
 		display: table-cell;
-
+		overflow: hidden;
 
 	}
 	.buton:hover{
@@ -28,6 +31,12 @@
 	}
 	.hov{
 		cursor: pointer;
+	}
+	.MP{
+		font-family: 'Roboto';
+    font-size: 90px;
+	margin: 0;
+	text-align: center;
 	}
 
 
@@ -38,7 +47,7 @@
 <h1>{Days_Remaining} Days Remaining</h1></div>
 
 <div>
-	<div class="CD"></div>
+	<div class="CD"><p class="MP">x</p></div>
 	<div class="CD"></div>
 	<div class="CD"></div>
 	<div class="CD"></div>
