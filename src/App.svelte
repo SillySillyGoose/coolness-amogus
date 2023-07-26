@@ -1,5 +1,6 @@
 <script>
 	let Day = 16
+	let week = 2
 	let Days_Remaining = 51
 	import Hai from './hai.svelte'
 	function GETOFFMEBLOODYLAWN(){
@@ -43,7 +44,7 @@
 </style>
 
 <div style="text-align: center;">
-<h1>Day: {Day}</h1>
+<h1>Day {Day}, Week {week}</h1>
 <h1>{Days_Remaining} Days Remaining</h1></div>
 
 <div>
