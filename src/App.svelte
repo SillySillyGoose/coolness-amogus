@@ -1,7 +1,7 @@
 <script>
-	let Day = 18
-	let week = 2
-	let Days_Remaining = 49
+	let Day = 21
+	let week = 3
+	let Days_Remaining = 46
 	import Hai from './hai.svelte'
 	function GETOFFMEBLOODYLAWN(){
 		document.querySelector("#getoffmebloodylawn").hidden = false
