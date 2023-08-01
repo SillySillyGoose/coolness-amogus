@@ -1,7 +1,7 @@
 <script>
-	let Day = 21
-	let week = 3
-	let Days_Remaining = 46
+	let Day = 22
+	let week = 4
+	let Days_Remaining = 47
 	import Hai from './hai.svelte'
 	function GETOFFMEBLOODYLAWN(){
 		document.querySelector("#getoffmebloodylawn").hidden = false
@@ -42,7 +42,7 @@
 
 
 </style>
-
+<h1>It's August!</h1>
 <div style="text-align: center;">
 <h1>Day {Day}, Week {week}</h1>
 <h1>{Days_Remaining} Days Remaining</h1></div>
@@ -54,7 +54,7 @@
 	<div class="CD"><p class="MP">x</p></div>
 	<div class="CD"><p class="MP">x</p></div>
 	<div class="CD"><p class="MP">x</p></div>
-	<div class="CD"></div>
+	<div class="CD"><p class="MP">x</p></div>
 	<div class="CD"></div>
 </div>
 <div>
