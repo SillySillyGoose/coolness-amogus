@@ -2,6 +2,8 @@
 	let Day = 28
 	let week = 5
 	let Days_Remaining = 41
+	let Month = 'August'
+
 	import Hai from './hai.svelte'
 	function GETOFFMEBLOODYLAWN(){
 		document.querySelector("#getoffmebloodylawn").hidden = false
