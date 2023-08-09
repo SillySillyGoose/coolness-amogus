@@ -1,7 +1,7 @@
 <script>
-	let Day = 28
+	let Day = 30
 	let week = 5
-	let Days_Remaining = 41
+	let Days_Remaining = 39
 	import Hai from './hai.svelte'
 	function GETOFFMEBLOODYLAWN(){
 		document.querySelector("#getoffmebloodylawn").hidden = false
@@ -65,10 +65,10 @@
 	<div class="CD"><p class="MP">x</p></div>
 	<div class="CD"><p class="MP">x</p></div>
 	<div class="CD"><p class="MP">x</p></div>
-	<div class="CD"></div>
+	<div class="CD"><p class="MP">x</p></div>
 </div>
 <div>
-	<div class="CD"></div>
+	<div class="CD"><p class="MP">x</p></div>
 	<div class="CD"></div>
 	<div class="CD"></div>
 	<div class="CD"></div>
