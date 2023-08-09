@@ -1,7 +1,7 @@
 <script>
-	let Day = 30
+	let Day = 20
 	let week = 5
-	let Days_Remaining = 41
+	let Days_Remaining = 31
 	let Month = 'August'
 
 
@@ -48,7 +48,7 @@
 <h1>It's {Month}!</h1>
 <div style="text-align: center;">
 <h1>Day {Day}, Week {week}</h1>
-<h1>{Days_Remaining} Days Remaining</h1></div>
+<h1>{Days_Remaining} Days Remaining (No Weekends)</h1></div>
 
 <div>
 	<div class="CD"><p class="MP">x</p></div>
