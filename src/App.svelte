@@ -1,7 +1,7 @@
 <script>
-	let Day = 23
+	let Day = 25
 	let week = 6
-	let Days_Remaining = 28
+	let Days_Remaining = 26
 	let Month = 'August'
 
 
