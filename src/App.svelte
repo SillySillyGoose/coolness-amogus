@@ -1,7 +1,7 @@
 <script>
-	let Day = 26
-	let week = 6
-	let Days_Remaining = 25
+	let Day = 27
+	let week = 7
+	let Days_Remaining = 26
 	let Month = 'August'
 
 
@@ -83,7 +83,7 @@
 <div>
 	<div class="CD"><p class="MP">x</p></div>
 	<div class="CD"><p class="MP">x</p></div>
-	<div class="CD"></div>
+	<div class="CD"><p class="MP">x</p></div>
 	<div class="CD"></div>
 	<div class="CD"></div>
 	<div class="CD"></div>
