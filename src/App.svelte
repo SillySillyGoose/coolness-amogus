@@ -1,7 +1,7 @@
 <script>
 	let editP = document.getElementById("P0");
 	let EDB = document.querySelector("#EDB");
-	let PVal;
+	let PVal = 0;
 
 		if (localStorage.getItem("PValStore"))
 			{
