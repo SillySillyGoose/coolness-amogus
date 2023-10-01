@@ -16,7 +16,7 @@
 
 
 	function PVAL1() {
-		PVal = 0
+		PVal = PVal + 1
 		localStorage.setItem("PValStore", PVal)
 	}
 
