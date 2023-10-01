@@ -3,16 +3,15 @@
 	let EDB = document.querySelector("#EDB");
 	let PVal = 0;
 
-	document.body.addEventListener("load", () => {
 		if (localStorage.getItem("PValStore"))
 			{
 				PVal = localStorage.getItem("PValStore")
 			}
-			else
+		else
 			{
 				PVal = 0
 			}
-	})
+
 
 
 
