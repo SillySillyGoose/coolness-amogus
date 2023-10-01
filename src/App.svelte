@@ -34,7 +34,7 @@
 			<img style="width: 52px; padding-left: 20px;" src="https://cdn.iconscout.com/icon/free/png-256/free-heart-like-love-card-game-favorite-37955.png?f=webp&w=256" alt="heart">
 			</a>
 			<br>
-			<p style="padding-left: 135px;" id="P0">{PVal}</p>
+			<p style="padding-left: 125px;" id="P0">{PVal}</p>
 
 	</h1>
 
