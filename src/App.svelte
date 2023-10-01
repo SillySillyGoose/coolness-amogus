@@ -12,6 +12,12 @@
 					Whats New?
 					<br>
 					Account Creation (Maybe)
+					<br>
+					Background Changing
+					<br>
+					Themes (If I Find A Way For Them, Also Will Not Be On Release.)
+					<br>
+					Better/Cleaner Looking UI
 					
 
 				</h1>
