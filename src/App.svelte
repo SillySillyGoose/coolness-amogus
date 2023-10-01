@@ -5,7 +5,7 @@
 		width: 100px;
 		height: 100px;
 		border: 4px solid;
-		border-radius: 3px;
+		border-radius: 5px;
 		border-color: black;
 	}
 
