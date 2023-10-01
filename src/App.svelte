@@ -1,6 +1,6 @@
 <script>
 	let editP = document.getElementById("P0")
-	let EDB = document.getElementById("EDB")
+	let EDB = document.querySelector("a")
 	let PVal = localStorage.getItem("PValStore");
 
 	EDB.addEventListener("click", () => {
