@@ -8,11 +8,11 @@
 
 
 			<footer>
-				<h1>
+				<h1 style="font-family: Arial; font-size: 20px;">
 					Whats New?
 					<br>
-					"Account Creation (Maybe)"
-
+					Account Creation (Maybe)
+					
 
 				</h1>
 			</footer>
