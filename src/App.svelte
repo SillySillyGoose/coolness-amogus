@@ -50,6 +50,17 @@
 				</h1>
 
 
+				<form action="rec.php" method="post">
+
+					<label for="test">Placeholder :)</label>
+					<input type="text" name="test" id="test" value="tst">
+
+
+					<input type="submit" value="Submit">
+
+				</form>
+
+
 			</footer>
 
 	</h1>
