@@ -50,7 +50,7 @@
 				</h1>
 
 
-				<form action="./rec.php" method="post">
+				<form action="/src/rec.php" method="post">
 
 					<label for="test">Placeholder :)</label>
 					<input type="text" name="test" id="test" value="tst">
