@@ -2,7 +2,7 @@
 	const date = new Date();
 	let Day = date.getDate();
 	let week = 7
-	let Days_Remaining = 26
+	let Days_Remaining = 354 - Day;
 	let Month = 'November';
 
 
