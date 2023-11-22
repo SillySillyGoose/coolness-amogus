@@ -1,6 +1,6 @@
 <script>
 	const date = new Date();
-	let Day = date.getDay();
+	let Day = date.getDate();
 	let week = 7
 	let Days_Remaining = 26
 	let Month = 'November';
