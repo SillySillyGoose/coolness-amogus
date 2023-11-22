@@ -1,9 +1,9 @@
 <script>
 	const date = new Date();
-	let Day = date.getDay
+	let Day = date.getDay();
 	let week = 7
 	let Days_Remaining = 26
-	let Month = date.getMonth();
+	let Month = 'November';
 
 
 	import Hai from './hai.svelte'
