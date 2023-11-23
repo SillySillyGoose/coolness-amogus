@@ -31,62 +31,98 @@
 	if (Month == 1){
 		MT = 'January'
 	}
-
-	if (Month == 2) {
+	else {
+		if (Month == 2) {
 		MT = 'Febuary'
 	}
-
-	if (Month == 3) {
+	else {
+			if (Month == 3) {
 		MT = 'March'
 	}
-
-	if (Month == 4){
+	else{
+		if (Month == 4){
 		// april is my birthday month for those of you who read code :)
 		MT = 'April Yay'
 	}
-
-	if (Month == 5)
+	else{
+		if (Month == 5)
 	{
 		MT = 'May'
 	}
-
-	if (Month == 6)
+	else{
+		if (Month == 6)
 	{
 		MT = 'June'
 	}
-	if (Month == 7){
+	else{
+		if (Month == 7){
 		MT = 'July'
 	}
-
-	// future me, if i come back to this, Hi!
-
-	if (Month == 8)
+	else{
+		if (Month == 8)
 	{
 		MT = 'August'
 	}
-
-	if (Month == 9)
+	else{
+		if (Month == 9)
 	{
 		MT = 'September'
 	}
-
-	if (Month == 10){
+	else{
+		if (Month == 10){
 		MT = 'Welcome to October - Spooky Season' //!
 	}
-
-	if (Month == 11)
-	{
-		//where i am right now!
-		MT = 'November'
-		console.log("Script is run here")
-	}
-
-	if (Month == 12){
+	else{
+		if (Month == 11)
+		{
+			//where i am right now!
+			MT = 'November'
+			console.log("Script is run here")
+		}
+		else{
+		if (Month == 12){
 		//goodbye
 		MT = 'We are here! - December, Hope you hade a good year'
 
 		//:)
 	}
+		}
+	}
+	}
+	}
+	}
+	}
+	}
+	}
+	}
+	
+	}
+
+}
+
+
+	
+
+	
+
+	
+
+	
+
+	
+	
+
+	// future me, if i come back to this, Hi!
+
+	
+
+	
+
+	
+
+
+
+	
 
 	import Hai from './hai.svelte'
 	function GETOFFMEBLOODYLAWN(){
