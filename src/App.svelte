@@ -7,6 +7,34 @@
 	let MT = 'January'
 	let trueDay = 1;
 	let time = date.getHours();
+	var countdownDate = new Date("Dec 20, 2023 03:00:00")
+
+	var x = setInterval(function() {
+
+
+		var now = new Date().getTime();
+
+		var distance = countdownDate - now;
+
+
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+		document.getElementById("CD").innerHTML = days + "d" + hours + "h" + minutes + "m" + seconds + "s";
+
+
+		if (distance < 0){
+
+			clearInterval(x)
+			document.getElementById("CD").innerHTML = "End Of School!"
+
+		}
+
+	}, 1000)
 
  // work on later
 	if (Day == trueDay)
@@ -95,6 +123,7 @@
 
 
 </style>
+<h1 style="text-align: center;" id="CD">Amogus sussy wow</h1>
 <h1>It's {MT}!</h1>
 <div style="text-align: center;">
 <h1>Day {Day}, Week {week}</h1>
@@ -131,14 +160,14 @@
 	<div class="CD"><p class="MP">x</p></div>
 </div>
 <div>
+	<div class="CD"><p class="MP">x</p></div>
 	<div class="CD"><p class="MP"></p></div>
 	<div class="CD"><p class="MP"></p></div>
 	<div class="CD"><p class="MP"></p></div>
-	<div class="CD"></div>
-	<div class="CD"></div>
-	<div class="CD"></div>
-	<div class="CD"></div>
-	<div class="CD"></div>
+	<div class="CD"><p class="MP"></p></div>
+	<div class="CD"><p class="MP"></p></div>
+	<div class="CD"><p class="MP"></p></div>
+	<div class="CD"><p class="MP"></p></div>
 </div>
 <div>
 	<div class="CD"></div>
