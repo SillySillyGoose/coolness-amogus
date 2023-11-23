@@ -3,7 +3,7 @@
 	let Day = date.getDate();
 	let week = 7
 	let Days_Remaining = 50 - Day;
-	const Month = date.getMonth();
+	const Month = date.getUTCMonth();
 	let MT = 'January'
 	let trueDay = 1;
 	let time = date.getHours();
@@ -29,77 +29,7 @@
 
 	// Month Automation
 
-	if (Month == 1){
-		MT = 'January'
-	}
-	else {
-		if (Month == 2) {
-		MT = 'Febuary'
-	}
-	else {
-			if (Month == 3) {
-		MT = 'March'
-	}
-	else{
-		if (Month == 4){
-		// april is my birthday month for those of you who read code :)
-		MT = 'April Yay'
-	}
-	else{
-		if (Month == 5)
-	{
-		MT = 'May'
-	}
-	else{
-		if (Month == 6)
-	{
-		MT = 'June'
-	}
-	else{
-		if (Month == 7){
-		MT = 'July'
-	}
-	else{
-		if (Month == 8)
-	{
-		MT = 'August'
-	}
-	else{
-		if (Month == 9)
-	{
-		MT = 'September'
-	}
-	else{
-		if (Month == 10){
-		MT = 'Welcome to October - Spooky Season' //!
-	}
-	else{
-		if (Month == 11)
-		{
-			//where i am right now!
-			MT = 'November'
-			console.log("Script is run here")
-		}
-		else{
-		if (Month == 12){
-		//goodbye
-		MT = 'We are here! - December, Hope you hade a good year'
-
-		//:)
-	}
-		}
-	}
-	}
-	}
-	}
-	}
-	}
-	}
-	}
 	
-	}
-
-}
 
 
 	
