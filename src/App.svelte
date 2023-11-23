@@ -78,6 +78,7 @@
 	{
 		//where i am right now!
 		MT = 'November'
+		console.log("Script is run here")
 	}
 
 	if (Month == 12){
