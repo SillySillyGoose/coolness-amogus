@@ -9,7 +9,7 @@
 	let time = date.getHours();
 
  // work on later
-	if (Day = trueDay)
+	if (Day == trueDay)
 	{
 		trueDay = Day
 	}
