@@ -3,8 +3,89 @@
 	let Day = date.getDate();
 	let week = 7
 	let Days_Remaining = 50 - Day;
-	let Month = 'November';
+	let Month = date.getMonth();
+	let MT = 'January'
+	let trueDay = 1;
+	let time = date.getHours();
 
+ // work on later
+	if (Day = trueDay)
+	{
+		trueDay = Day
+	}
+
+	if (Day != trueDay)
+	{
+		trueDay +=1
+
+		if (Day != trueDay) {
+			
+		}
+
+	}
+
+
+
+	// Month Automation
+
+	if (Month = 1){
+		MT = 'January'
+	}
+
+	if (Month = 2) {
+		MT = 'Febuary'
+	}
+
+	if (Month = 3) {
+		MT = 'March'
+	}
+
+	if (Month = 4){
+		// april is my birthday month for those of you who read code :)
+		MT = 'April Yay'
+	}
+
+	if (Month = 5)
+	{
+		MT = 'May'
+	}
+
+	if (Month = 6)
+	{
+		MT = 'June'
+	}
+	if (Month = 7){
+		MT = 'July'
+	}
+
+	// future me, if i come back to this, Hi!
+
+	if (Month = 8)
+	{
+		MT = 'August'
+	}
+
+	if (Month = 9)
+	{
+		MT = 'September'
+	}
+
+	if (Month = 10){
+		MT = 'Welcome to October - Spooky Season' //!
+	}
+
+	if (Month = 11)
+	{
+		//where i am right now!
+		MT = 'November'
+	}
+
+	if (Month = 12){
+		//goodbye
+		MT = 'We are here! - December, Hope you hade a good year'
+
+		//:)
+	}
 
 	import Hai from './hai.svelte'
 	function GETOFFMEBLOODYLAWN(){
@@ -46,7 +127,7 @@
 
 
 </style>
-<h1>It's {Month}!</h1>
+<h1>It's {MT}!</h1>
 <div style="text-align: center;">
 <h1>Day {Day}, Week {week}</h1>
 <h1>{Days_Remaining} Days Remaining </h1></div>
