@@ -38,15 +38,7 @@
 
  // work on later
 
-	Loadobj("TD", trueDay)
 
-	if (trueDay != Day)
-	{
-		Days_Remaining -= 1
-		trueDay = Day
-
-		SaveObj("TD", trueDay);
-	}
 
 	function SaveObj(key  = "", object)
 	{
