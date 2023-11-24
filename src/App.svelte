@@ -2,10 +2,10 @@
 	const date = new Date();
 	let Day = date.getDate();
 	let week = 7
-	let Days_Remaining = 50 - Day;
+	let Days_Remaining = 26;
 	const Month = date.getUTCMonth();
 	let MT = 'January'
-	let trueDay = 1;
+	let trueDay = 24;
 	let time = date.getHours();
 	var countdownDate = new Date("Dec 20, 2023 03:00:00")
 
@@ -37,19 +37,25 @@
 	}, 1000)
 
  // work on later
-	if (Day == trueDay)
+
+	Loadobj("TD", trueDay)
+
+	if (trueDay != Day)
 	{
+		Days_Remaining -= 1
 		trueDay = Day
+
+		SaveObj("TD", trueDay);
 	}
 
-	if (Day != trueDay)
+	function SaveObj(key  = "", object)
 	{
-		trueDay +=1
+		window.localStorage.setItem(key, object)
+	}
 
-		if (Day != trueDay) {
-			
-		}
-
+	function Loadobj(key = "", object)
+	{
+		object = window.localStorage.getItem(key)
 	}
 
 
