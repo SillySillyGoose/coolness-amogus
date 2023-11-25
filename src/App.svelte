@@ -4,7 +4,7 @@
 	let week = 7
 	let Days_Remaining = 50 - Day;
 	const Month = date.getUTCMonth();
-	let MT = 'January'
+	let MT = 'November'
 	let trueDay = 24;
 	let time = date.getHours();
 	var countdownDate = new Date("Dec 20, 2023 03:00:00")
