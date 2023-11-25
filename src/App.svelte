@@ -2,7 +2,7 @@
 	const date = new Date();
 	let Day = date.getDate();
 	let week = 7
-	let Days_Remaining = 26;
+	let Days_Remaining = 50 - Day;
 	const Month = date.getUTCMonth();
 	let MT = 'January'
 	let trueDay = 24;
