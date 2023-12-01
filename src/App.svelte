@@ -2,7 +2,7 @@
 	const date = new Date();
 	let Day = date.getDate();
 	let week = 7
-	let Days_Remaining = 50 - Day;
+	let Days_Remaining = 21 - Day;
 	const Month = date.getUTCMonth();
 	let MT = 'November'
 	let trueDay = 24;
